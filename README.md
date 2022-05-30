@@ -27,7 +27,8 @@ Necessary improvements:
   
 
 Possibile Improvements to make:
-  * Support for 12V on board??? (5v regulator, 5v dataline, but 12v power somehow?)
+  * Have a hole on the board to weave the LED wire through to add mechanical stability to solder connections
+  * Support for 12V on board? (5v regulator, 5v dataline, but 12v power)
   * Support for automatically detecting strip length based on current drawn by strip (either "off" current or turning 1 on at a time, need ammeter)
   * Support for battery charging
 
