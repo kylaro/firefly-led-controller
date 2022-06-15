@@ -22,9 +22,13 @@ PCB for the FireFly LED Controller by kylarLEDs
 
 ## Notes
 Necessary improvements:
-  * USB C holes should be more exact so it fits better
-  * Support for 4 pin ws2812b strips
-  
+  * Support for 4 pin ws2812b strips, and APA102, 4 outputs
+  * More testing capability for the microphone, and maybe other components
+  *     -> maybe bottom of board row of headers that another board with a pi can plug into, or row of pads on bottom
+  *     -> Or pad groups on the bottom, like this to that type things... every connection could be represented
+  *     -> ex. MIC GND <-> GND ... ENC_A <-> GP22 ..., anything that contributes functionality :) 
+  * 4 LED outputs
+  * Header pins offset
 
 Possibile Improvements to make:
   * Have a hole on the board to weave the LED wire through to add mechanical stability to solder connections
@@ -32,3 +36,6 @@ Possibile Improvements to make:
   * Support for automatically detecting strip length based on current drawn by strip (either "off" current or turning 1 on at a time, need ammeter)
   * Support for battery charging
   * Support for DMX LEDs input/output
+
+Notes:
+  * USB C holes should be more exact so it fits better
