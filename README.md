@@ -40,6 +40,8 @@ Possibile Improvements to make:
   * Support for automatically detecting strip length based on current drawn by strip (either "off" current or turning 1 on at a time, need ammeter)
   * Support for battery charging
   * Support for DMX LEDs input/output
+  * Add more sensors, like motion sensor for human presence detection. Temperature/accelerometer/humidity/gyro...
+  * Add silabs MCU for mesh networking
 
 Notes:
   * USB C holes should be more exact so it fits better
