@@ -42,6 +42,7 @@ Possibile Improvements to make:
   * Support for DMX LEDs input/output
   * Add more sensors, like motion sensor for human presence detection. Temperature/accelerometer/humidity/gyro...
   * Add silabs MCU for mesh networking
+  * Stop using Pico board, use the RP2040 + pico schematic so we aren't soldering a board onto a board!
 
 Notes:
   * USB C holes should be more exact so it fits better
