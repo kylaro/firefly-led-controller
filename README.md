@@ -4,13 +4,13 @@ PCB for the FireFly LED Controller by kylarLEDs
 
 ## Hardware
     The sensors on the board are:
-        1. Microphone (not yet supported) -> for sound reactive LEDs
-        2. Potentiometer (not yet supported) -> for brightness control
-        3. Rotary encoder (not yet supported) -> for color/hue control
-        4. Rotary encoder button (not yet supported) -> for changing patterns
+        1. Microphone  -> for sound reactive LEDs
+        2. Potentiometer  -> for brightness control
+        3. Rotary encoder  -> for color/hue control
+        4. Rotary encoder button  -> for changing patterns
 
     The outputs from the board are:
-        1. 2 x WS2812B LED output pins (not yet supported)
+        1. 2 x WS2812B LED output pins 
             a. Each pin has 2 output pads, one on front and one on back
             b. Each pin has a 0.1 inch header port
         2. 2 x USBC 5V power up to 3A
