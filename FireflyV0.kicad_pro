@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.4,
-          "width": 0.95
+          "height": 1.7,
+          "width": 3.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.0
         }
       },
@@ -378,7 +378,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FireflyV1.kicad_pro",
+    "filename": "FireflyV0.kicad_pro",
     "version": 1
   },
   "net_settings": {
