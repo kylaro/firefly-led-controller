@@ -41,20 +41,20 @@
     (path "/859f724d-cf91-4b03-be2e-c43cacd785a0/617e7f1c-0fc8-4ea7-99b5-d452c237ccb9"
       (reference "R2") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/859f724d-cf91-4b03-be2e-c43cacd785a0/219f344c-be83-4066-9867-bc2789be2025"
-      (reference "RV1") (unit 1) (value "R_Potentiometer") (footprint "Varistor:3352T-1-104LF")
+    (path "/859f724d-cf91-4b03-be2e-c43cacd785a0/432db84f-c3de-4855-a270-a4a95b21839b"
+      (reference "S1") (unit 1) (value "1-1825027-7") (footprint "118250277")
     )
-    (path "/859f724d-cf91-4b03-be2e-c43cacd785a0/a9240f68-939b-496d-ba0d-20f50ba9a378"
-      (reference "RV2") (unit 1) (value "R_Potentiometer") (footprint "Varistor:3352T-1-104LF")
-    )
-    (path "/859f724d-cf91-4b03-be2e-c43cacd785a0/d0113477-df94-455d-aff3-fece36e178ac"
-      (reference "S1") (unit 1) (value "EVQ-9P701P") (footprint "EVQ-9P701P")
-    )
-    (path "/859f724d-cf91-4b03-be2e-c43cacd785a0/e3aff02d-501f-48cc-8854-1bc14bf605c7"
-      (reference "S2") (unit 1) (value "EVQ-9P701P") (footprint "EVQ-9P701P")
+    (path "/859f724d-cf91-4b03-be2e-c43cacd785a0/af077c10-45a5-4e82-98bd-4c889bf7a2bf"
+      (reference "S2") (unit 1) (value "1-1825027-7") (footprint "118250277")
     )
     (path "/859f724d-cf91-4b03-be2e-c43cacd785a0/eb65dca6-c8d0-4740-a8f3-d6566713ca0d"
       (reference "U1") (unit 1) (value "Pico") (footprint "SamacSys_Parts:RPi_Pico_SMD_TH_removes2")
+    )
+    (path "/859f724d-cf91-4b03-be2e-c43cacd785a0/c28909a5-9106-4094-bbb8-7f1ef8ee8be5"
+      (reference "VR1") (unit 1) (value "PTV09A-2020F-A104") (footprint "PTV09A2020FA104")
+    )
+    (path "/859f724d-cf91-4b03-be2e-c43cacd785a0/14599bf6-5c60-4c16-968b-5079b31b0e12"
+      (reference "VR2") (unit 1) (value "PTV09A-2020F-A104") (footprint "PTV09A2020FA104")
     )
   )
 )
