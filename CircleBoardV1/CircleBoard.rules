@@ -1,0 +1,104 @@
+
+(rules PCB CircleBoard
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 12)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    5V GND LINK03 LINK05 LINK06 LINK07 LINK08 LINK09
+    LINK10 LINK11 LINK12 LINK13 LINK14 LINK15 LINK16 LINK17
+    LINK18 LINK19 LINK20 LINK21 LINK22 LINK23 LINK24 LINK25
+    LINK26 LINK27 LINK28 LINK29 LINK30 LINK31 LINK32 LINK33
+    LINK34 LINK35 LINK36 LINK37 LINK38 LINK39 LINK40 LINK41
+    LINK42 LINK43 LINK44 LINK45 LINK46 LINK47 LINK48 LINK49
+    LINK50 LINK51 LINK52 LINK53 LINK54 LINK55 LINK56 LINK57
+    LINK58 LINK59 LINK60 LINK61 LINK62 LINK63 LINK64 LINK65
+    LINK66 LINK67 LINK68 LINK69 LINK70 LINK71 LINK72 LINK73
+    LINK74 LINK75 LINK76 LINK77 LINK78 LINK79 LINK80 LINK81
+    LINK82 LINK83 LINK84 LINK85 LINK86 LINK87 LINK88 LINK89
+    LINK90 LINK91 LINK92 LINK93 LINK94 LINK95 LINK96 LINK97
+    LINK98 LINK99 LINK100 LINK04 LINK00 LINK101 LINK102 LINK01
+    LINK02
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
