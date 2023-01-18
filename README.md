@@ -1,7 +1,7 @@
 # firefly-led-controller
 PCB for the FireFly LED Controller by kylarLEDs
 
-![FireFly V1 controller](https://imgur.com/a/bOtsNqd)
+https://imgur.com/a/bOtsNqd
 
 
 ## Hardware
