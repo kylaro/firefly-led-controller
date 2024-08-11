@@ -1,0 +1,4 @@
+~/easyeda vnev ❯ easyeda2kicad --lcsc_id C2927029 --footprint --symbol
+
+source vnev/bin/activate
+
