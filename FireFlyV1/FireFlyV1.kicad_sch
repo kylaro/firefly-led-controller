@@ -5,7 +5,7 @@
 	(uuid "72ac21c7-a543-4794-a410-99cf6f99d934")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -19,8 +19,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connector, single row, 01x01, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,19 +80,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x01_Pin_1_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 0.8636 0)
@@ -103,17 +91,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -138,24 +115,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4555,6 +4514,12 @@
 		(uuid "7e044bf0-d03f-4e1b-a5c4-d8384fbd3b58")
 	)
 	(junction
+		(at 247.65 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86b5a1b9-cfce-46b1-9da9-002429b6a13e")
+	)
+	(junction
 		(at 86.36 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4697,6 +4662,10 @@
 	(no_connect
 		(at 170.18 109.22)
 		(uuid "18520301-9047-4b47-aae2-5c4442f791e3")
+	)
+	(no_connect
+		(at 170.18 99.06)
+		(uuid "2976f8fd-c15e-4da5-8cfe-c9901491a112")
 	)
 	(no_connect
 		(at 31.75 43.18)
@@ -4908,6 +4877,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 137.16) (xy 237.49 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea2e705-02da-4e19-99b0-cb154fbb676e")
+	)
+	(wire
+		(pts
 			(xy 267.97 114.3) (xy 270.51 114.3)
 		)
 		(stroke
@@ -5068,6 +5047,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 130.81) (xy 247.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cce28d1-c6b3-4cf0-9b11-224ef6fb288a")
+	)
+	(wire
+		(pts
 			(xy 250.19 120.65) (xy 256.54 120.65)
 		)
 		(stroke
@@ -5158,7 +5147,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 137.16) (xy 237.49 137.16)
+			(xy 250.19 137.16) (xy 247.65 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5525,6 +5514,16 @@
 			(type default)
 		)
 		(uuid "e0f75200-38d6-4e73-a1ee-e1061be7713d")
+	)
+	(wire
+		(pts
+			(xy 245.11 130.81) (xy 247.65 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e3da84-2f33-42c1-8a79-80a70dde2ec5")
 	)
 	(wire
 		(pts
@@ -5927,28 +5926,6 @@
 		(uuid "3a4f869b-ddb5-426c-b85d-d676f5eefc09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 181.0876 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_OUT_4"
-		(shape input)
-		(at 170.18 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3afbfb7b-ede6-4eb9-804d-31d3d5a7c6a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.3856 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9363,6 +9340,71 @@
 			(project "FireFlyV1"
 				(path "/72ac21c7-a543-4794-a410-99cf6f99d934"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 227.33 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b2cf255-67ea-4b65-acf0-a8d3d16c9eae")
+		(property "Reference" "J3"
+			(at 226.695 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 226.695 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 227.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 227.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2ec94f-8d88-45fe-a738-d46c8c883578")
+		)
+		(instances
+			(project "FireFlyV1"
+				(path "/72ac21c7-a543-4794-a410-99cf6f99d934"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13310,6 +13352,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 227.33 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a584cdd2-1555-4774-a96e-259d7552a90c")
+		(property "Reference" "J2"
+			(at 226.695 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 226.695 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 227.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 227.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc678b62-bb65-4a90-83aa-cf125f3edaec")
+		)
+		(instances
+			(project ""
+				(path "/72ac21c7-a543-4794-a410-99cf6f99d934"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "ledstrip_3pin_10mm_1")
 		(lib_id "kylarLEDs:ledstrip_3pin_10mm")
 		(at 205.74 95.25 0)
@@ -13731,7 +13838,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 208.534 148.844 0)
 			(effects
 				(font
@@ -14545,76 +14652,6 @@
 			(project "FireFlyV1"
 				(path "/72ac21c7-a543-4794-a410-99cf6f99d934"
 					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 227.33 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c21d07a4-e6b6-46d1-92c0-7a4594e1323b")
-		(property "Reference" "J6"
-			(at 228.6 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 228.6 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 227.33 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 227.33 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e22f73d5-12a0-435d-bc4a-5e940ab24826")
-		)
-		(pin "1"
-			(uuid "4f22a67f-4215-49ee-9e96-3221b978c638")
-		)
-		(instances
-			(project ""
-				(path "/72ac21c7-a543-4794-a410-99cf6f99d934"
-					(reference "J6")
 					(unit 1)
 				)
 			)
