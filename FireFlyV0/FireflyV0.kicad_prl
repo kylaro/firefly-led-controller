@@ -64,8 +64,14 @@
       35,
       36
     ],
-    "visible_layers": "0000001_00000001",
+    "visible_layers": "0021021_00000001",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "FireflyV0.kicad_prl",

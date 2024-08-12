@@ -5,9 +5,7 @@
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "BOARD_ID_0",
-      "3V3",
-      "+5V"
+      "BOARD_ID_0"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
