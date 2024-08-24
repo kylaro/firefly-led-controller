@@ -1,0 +1,132 @@
+(footprint "FILTER-SMD_1206-2P-L3.2-W1.6-L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "0501a65f-53a6-4d36-9f01-a677634badfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FILTER-SMD_1206-2P-L3.2-W1.6-L"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "f939e4a1-2437-40d6-b6ff-5159e35c48f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d280c0ef-9b41-4bb0-8d79-ee441b517240")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb67ff7e-f4a1-4940-bfdf-91e98c7ab3a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39142477-93bf-4bcf-846f-b3faffce51c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.55 -1.05)
+		(end -1.52 -1.05)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3912510b-9d4c-4383-9952-9dbfa6f59c95")
+	)
+	(fp_rect
+		(start -2 -0.9)
+		(end 2 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "71b7c9ac-a105-40b5-b10c-c282e67a0300")
+	)
+	(fp_circle
+		(center -1.55 -0.75)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6162d094-4e59-4b80-9b36-0d7987ea08d7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "edb67779-eb1d-46fc-8990-dbfe36d467b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.55 0)
+		(size 0.8 1.66)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "06b97605-2b16-44e3-908d-1f3cc7443bad")
+	)
+	(pad "2" smd rect
+		(at 1.55 0)
+		(size 0.8 1.66)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "75ca8b6e-87a3-4444-8db6-fe8fc7749812")
+	)
+	(model "/External_Components/External_Library.3dshapes/FILTER-SMD_L3.2-W1.6-H1.2.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
