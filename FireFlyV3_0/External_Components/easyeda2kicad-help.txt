@@ -1,0 +1,1 @@
+easyeda2kicad --full --lcsc_id=C3040249 --output ./External_Components/External_Library
