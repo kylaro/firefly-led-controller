@@ -570,10 +570,7 @@
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "+3.3V": "rgb(87, 255, 136)",
-      "GND": "rgb(255, 235, 71)"
-    },
+    "net_colors": null,
     "netclass_assignments": {
       "/esp32_wifi_section/LNA_IN": "RF",
       "Net-(AE1-A)": "RF",
@@ -763,7 +760,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

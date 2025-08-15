@@ -18838,10 +18838,23 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FireFlyV3.0\n@KylarLEDs\n12-1-2024"
+	(gr_text "FireFlyV3.1\n@KylarLEDs\n02-02-2025"
 		(at 173.515 87.88 0)
 		(layer "B.SilkS")
 		(uuid "9686ae83-e7d6-4e4d-a480-aa2c94700322")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "i love jlcpcb"
+		(at 140.815 83.18 0)
+		(layer "B.SilkS")
+		(uuid "f25416ef-956a-4aff-99a0-7299c667c2de")
 		(effects
 			(font
 				(size 3 3)
